@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="scss/style.css">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <header>
+      <div class="main_menu align-items-center">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container">
+            <a href="#" class="navbar-brand">
+              <img src="images/logo.png" alt="logo"/>
+            </a>
+
+            <!-- display Button when screenwidth < 991px -->
+            <button class="navbar-toggler navbar-toggler-icon collapsed" type="button" data-toggle="collapse" data-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+
+            <!-- Main menu -->
+            <div class="navbar-collapse offset-collapse justify-content-between" id="mainMenu">
+              <nav class="nav navbar-nav menu_nav justify-content-start">
+
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Products</a>
+                </li>
+                <li class="nav-item submenu dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" data-toogle="dropdown" role="button" aria-haspopup="true" aria-expand="false">
+                    Customers
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li class="nav-item">
+                      <a href="#" class="nav-link">Link cus 1</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#" class="nav-link">Link cus 2</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#" class="nav-link">Link cus 3</a>
+                    </li>
+                  </ul>
+
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Company</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Resources</a>
+                </li>
+
+              </nav>
+
+              <!-- Nav-right -->
+              <div class="nav-right d-flex justify-content-end align-self-end py-4 py-lg-0">
+                <a class="btn button bg-white" href="#">Login</a>
+                <a class="btn button bg-blue" href="#">Sign up free</a>
+              </div>
+            </div>
+
+          </div>
+        </nav>
+
+      </div>
+    </header>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.4.0.min.js"></script>
+    <script src="js/bootstrap.bundle.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js" ></script>
+  </body>
+</html>
