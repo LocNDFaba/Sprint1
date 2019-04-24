@@ -70,11 +70,13 @@ $(document).ready(function(){
     $('.nav-pills .nav-item .nav-link').click(function(){
         $('.nav-pills .nav-item .nav-link.active').removeClass('active');
         $(this).addClass('active');
-        $('.tab-pane.fade.active.show').fadeOut(500);
+        $('.tab-pane.fade.active.show').fadeOut(300);
+        $('.tab-pane.fade.active.show').css("display","none");
         $('.tab-pane.fade.active.show').removeClass('show active');
         var idStr = $(this).attr("href");
-        $(idStr).fadeIn(500);
+        $(idStr).fadeIn(300);
         $(idStr).addClass('show active');
+        $(idStr).css("display","block");
     });
 
 

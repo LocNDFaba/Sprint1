@@ -192,17 +192,6 @@ header{
   padding: 10px 16px;
   border-radius: 0;
 
-  i{
-    @include transition(all,.4s);
-  }
-
-  &:hover
-  {
-    i{
-      transform: translateX(5px);
-      font-size: 20px;
-    }
-  }
 }
 
 .bg-white{
@@ -404,7 +393,7 @@ header{
   li{
     a{
       line-height: 26px;
-      font-size: 16px;
+      font-size: 14px;
       color: $color-text;
       font-weight: normal;
       padding-bottom: 10px;
@@ -435,9 +424,9 @@ header{
   p{
     margin: 0;
     padding: 0;
-    padding: 20px;
+    padding: 14px;
     color: $white;
-    font-size: 16px;
+    font-size: 12px;
     font-family: "Open Sans",Arial,sans-serif;
   }
 }
@@ -483,6 +472,15 @@ header{
   .copy-right{
     p{
       padding: 5px;
+    }
+  }
+
+  .nav-pills{
+    width: 100%;
+    .nav-item{
+      margin: 0 auto;
+      height: 90px;
+      max-width: 140px;
     }
   }
 }
