@@ -38,11 +38,15 @@ $(document).ready(function(){
     var navbar = document.querySelector("header");
     var sticky = navbar.offsetTop;
 
-    function stickyMenu() {
-        //console.log("sticky");
-        if (window.pageYOffset > sticky) {
+    function stickyMenu()
+    {
+        console.log(sticky);
+        if (window.pageYOffset - 220 > sticky)
+        {
             navbar.classList.add("navbar-fixed")
-        } else {
+        }
+        else
+        {
             navbar.classList.remove("navbar-fixed");
         }
     }
@@ -80,4 +84,5 @@ $(document).ready(function(){
     });
 
 
+    new WOW().init();
 })
